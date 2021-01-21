@@ -14,3 +14,5 @@ Any issues or bugs can be reported here in GitHub by clicking "issues."
 Thank you.
 -Carl
 Galatra Games
+
+This source code will be licensed under the GNU Lesser General Public License, GPL - 2.0.
