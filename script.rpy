@@ -71,11 +71,11 @@ label start:
     with moveoutright
     
     epi "If you don't see this message, make sure you place the Cubism SDK Native .zip folder in the correct Renpy folder path on either hard drive and repeat the previous steps as I mentioned again."
-    epi "After you've successfully installed the Live2D Cubism SDK Native in your Renpy SDK folder path, open up the 'options.py' file in your game folder."
-    epi "In the options.py screen, enter anywhere in the script by typing \"define config.gl2 = True\" script."
+    epi "After you've successfully installed the Live2D Cubism SDK Native in your Renpy SDK folder path, open up the 'options.rpy' file in your game folder."
+    epi "In the options.rpy screen, enter anywhere in the script by typing \"define config.gl2 = True\" script."
     epi "This will allow Renpy to access the OpenGL ES 2 rendering option for rendering low-level texture render images for Live 2D to work."
-    epi "You can also place the \"define config.gl2 = True\" script in your main 'script.py' file, as long as you use it once per game."
-    epi "However for the sake of this tutorial, we'll place the \"define config.gl2 = True\" script in the 'options.py' file."
+    epi "You can also place the \"define config.gl2 = True\" script in your main 'script.rpy' file, as long as you use it once per game."
+    epi "However for the sake of this tutorial, we'll place the \"define config.gl2 = True\" script in the 'options.rpy' file."
     epi "Here's the fun part."
     epi "The next step is a bit tricky, so pay attention."
     epi "Before we dig any closer to display our Live2D characters in Renpy, let's open up the Cubism SDK Native folder."
@@ -157,11 +157,11 @@ label start:
     hide rl2dgameA
     with moveoutright
     
-    epi "Now let's go to the main 'script.py' file."
+    epi "Now let's go to the main 'script.rpy' file."
     
     show rl2dchrscpt at right with moveinright
     
-    epi "On the main 'script.py' file, type on the top exactly what I typed down on the picture above."
+    epi "On the main 'script.rpy' file, type on the top exactly what I typed down on the picture above."
     epi "The first set declares the image to set your Live2D character, then equal sign to tell Renpy to open Live2D and find the character resource folder where it came from."
     epi "Renpy will search for the character's model3.json, if using Cubism 3, or model4.json when using Cubism 4."
     epi "Next to that is the base function."
